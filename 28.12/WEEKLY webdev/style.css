@@ -1,0 +1,229 @@
+@import "resetstyle.css";
+
+body{
+   
+    width: 100%;
+    height: 300%;
+    background-image: linear-gradient(to right bottom, #d16b78, #df626c, #ea595c, #f3514a, #fa4a34, #f0681e, #e38007, #d49500, #b2b82f, #8ad56b, #5becaf, #29fff1);
+   background-repeat: no-repeat;
+}
+p{
+    color:gray;
+}
+nav{
+    display: flex;
+    width: 100vw;
+    max-height: 500px;
+    min-height: 300px;
+}
+
+h1{
+    color: white;
+    font-size: 24px;
+}
+section.main
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+section.left
+{   
+    display: flex;
+    width: 50%;
+    height: 120vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-between;
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+}
+
+section.right
+{   
+    display: flex;
+    width: 50%;
+    height: 120vh;
+    
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-between;
+    padding-top: 50px;
+    padding-bottom: 60px;
+ 
+}
+section.right .recoverform, section.right .subscribeform, section.right .signinform
+{
+    border-radius: 1px;
+    box-shadow: 0px 0px 9px 12px rgba(0,0,0,0.3); 
+}
+section.left div.register ,section.left .mail
+{
+    border-radius: 1px;
+    box-shadow: 0px 0px 9px 12px rgba(0,0,0,0.3);  
+}
+h1{
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+section.left div.register {
+display: flex;
+    width: 300px ;
+    height: 450px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+div.register form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+section.left div.mail{
+    
+    
+    width: 300px ;
+    height: 520px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section.right div.signinform{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+section.right div.recoverform{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+section.right div.subscribeform{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    margin-bottom: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.fontuser { 
+    position: relative; 
+} 
+.fontuser i{ 
+    position: absolute; 
+    left: 15px; 
+    top: 40px; 
+    color: gray; 
+} 
+
+input[type=text],  
+input[type=password],textarea {  
+    width: 100%;  
+    padding: 16px 12px;  
+    margin: 8px 0;  
+    display: inline-block;  
+    border: none; 
+    box-sizing: border-box;  
+    border-radius: 10px;
+box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0);
+border: 1px solid gray;
+
+}  
+
+.fontuser p{
+    padding-top: 20px;
+}
+.signinform p{
+ line-height: 38px;
+}
+.signinform input[type=checkbox] {
+    margin-top: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 16px 30px;    
+    margin: 20px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+    
+}  
+.message{
+    border: solid, black ,54px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.boxes{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+   
+
+}
+
+
+
+
+
+.recoverform button , .subscribeform button, .signinform button{
+   width: 140px;
+    padding: 10px 5px;
+    margin: 0;
+    flex-shrink: 1;
+    
+    
+
+}
+

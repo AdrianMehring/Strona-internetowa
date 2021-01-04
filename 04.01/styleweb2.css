@@ -1,0 +1,141 @@
+@import "resetstyle.css";
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+nav{
+    display:flex;
+    width: 100vw;
+    min-width: 100%;
+    max-width:100%;
+    --widthnav:10vh;
+    height:var(--widthnav);
+}
+nav div.logonav{
+    width: 50%;
+    padding-left: 3em;
+}
+nav div.logonav h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: black;
+    line-height: 10vh;
+    font-size: 35px;
+    text-decoration: none;
+
+}
+
+nav div.menunav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 50%;
+    flex-basis: auto ;
+    padding-right: 10%;
+}
+nav div.menunav a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+   
+}
+nav div.menunav a:active{
+    border-top: rgba(255, 95, 51, 1) solid 3px;
+}
+/* Main */
+main{
+
+    display: flex;
+    width: 100%;
+    min-width: 100%;
+    max-width:100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(truskawka.png);
+
+    border-bottom: 4px solid black;
+}
+main div.freshlife{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+
+    text-align: left;
+
+}
+div.freshlife  h1{
+   
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    padding-bottom: 0.2em;
+   width: 80%;
+    
+}
+div.freshlife p{
+    text-align: left;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+   width: 80%;
+   line-height: 1.2em;
+   
+}
+div.freshlife p:nth-child(3){
+    padding-top: 20px;
+    flex-shrink: 1;
+}
+div.freshlife button{
+    
+    width: 150px;
+    height: 40px;
+    background-color: rgba(255, 95, 51, 1);
+    text-transform: uppercase;
+    color: white;
+    font-weight:lighter;
+    font-family : inherit;
+    border: none;
+}
+
+
+section{
+display: flex;
+height: 70vh;
+width: 100%;
+
+
+
+}
+
+section div.aboutUs{
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
