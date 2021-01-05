@@ -24,33 +24,33 @@ nav div.logonav{
     padding-left: 3em;
 }
 nav div.logonav h1{
+    font-size: 35px;
+    line-height: 10vh;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
     font-weight: 900;
     color: black;
-    line-height: 10vh;
-    font-size: 35px;
-    text-decoration: none;
-
 }
 
 nav div.menunav{
     display: flex;
+    width: 50%;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    overflow: hidden;
-    width: 50%;
     flex-basis: auto ;
+    overflow: hidden;
     padding-right: 10%;
 }
 nav div.menunav a{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: black;
     line-height: 40px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 18px;
     text-decoration: none;
+    color: black;
+    
    
 }
 nav div.menunav a:active{
@@ -66,7 +66,6 @@ main{
     height: 100vh;
     background-size: cover;
     background-image: url(truskawka.png);
-
     border-bottom: 4px solid black;
 }
 main div.freshlife{
@@ -78,24 +77,22 @@ main div.freshlife{
     flex-direction: column;
     flex-wrap: wrap;
     align-self: center;
-
     text-align: left;
 
 }
 div.freshlife  h1{
-   
-    font-family: 'Roboto', sans-serif;
+    width: 80%;
     font-size: 3em;
     padding-bottom: 0.2em;
-   width: 80%;
+    font-family: 'Roboto', sans-serif;
     
 }
 div.freshlife p{
-    text-align: left;
+    width: 80%;
     font-size: 1em;
+    line-height: 1.2em;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-   width: 80%;
-   line-height: 1.2em;
    
 }
 div.freshlife p:nth-child(3){
@@ -103,7 +100,6 @@ div.freshlife p:nth-child(3){
     flex-shrink: 1;
 }
 div.freshlife button{
-    
     width: 150px;
     height: 40px;
     background-color: rgba(255, 95, 51, 1);
@@ -117,18 +113,47 @@ div.freshlife button{
 
 section{
 display: flex;
-height: 70vh;
+height: 80vh;
 width: 100%;
-
-
-
+background: url('truskawkaobrazek.png'), rgba(0, 175, 174, 1);
+background-position: -505px 15%;
+background-attachment: fixed;
 }
 
-section div.aboutUs{
 
 
-
+section div.imageaboutUs > img {
+    width: 200%;
 }
+section div.aboutUstext{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding-left: 40%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    text-align: left;
+    }
+    section div.aboutUstext h1{
+        width: 80%;
+        font-size: 5em;
+        padding-bottom: 20px;
+        color: white;
+        
+    }
+    section div.aboutUstext p{
+    width: 80%;
+
+    line-height: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    section div.aboutUstext p:nth-last-of-type(1){
+        padding-top: 23px;
+        }
 
 
 
